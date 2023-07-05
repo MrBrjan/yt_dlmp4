@@ -8,7 +8,7 @@ url_or_playlist_id = input("Nhập URL hoặc ID của playlist YouTube: ")
 options = {
     'format': 'bestvideo+bestaudio/best',
     'outtmpl': '%(playlist_title)s/%(title)s.%(ext)s',
-    'merge_output_format': 'mp4', # Định dạng file đã edit xong
+    'merge_output_format': 'mp4', # Định dạng file đã edit xong rồi
     'ignoreerrors': True,  # Bỏ qua lỗi và tiếp tục tải xuống các video khác
 }
 
