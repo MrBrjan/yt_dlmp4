@@ -3,7 +3,8 @@ import yt_dlp
 
 # Lấy URL hoặc ID của playlist từ người dùng.
 url_or_playlist_id = input("Nhập URL hoặc ID của playlist YouTube: ")
-url_id= "" 
+url_plid= "" 
+
 # Tạo một từ điển với các tùy chọn cho quá trình tải xuống.
 options = {
     'format': 'bestvideo+bestaudio/best',
